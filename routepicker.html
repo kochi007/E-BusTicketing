@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title >Routeinfo</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"><!-- CSS stylesheet -->
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.0-beta.1/themes/smoothness/jquery-ui.css"><!-- this link is For Date Choser UI -->
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"><!-- Font Awesome Icon -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><!-- Bootstrap css -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"></script><!-- jquery Library -->
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<!-- this link is For Date Choser UI -->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> <!-- Bootstap jscript -->
+
+
+</head>
+<body>
+	<div class="Options">
+		<div>
+			<p class="fa fa-bus" style="font-size:35px"><br>Bus Schedule<br></p>
+			<ul id="optionlist">
+				<!-- <li class="fa fa-home" style="font-size:35px"></li>
+				<li class="fa fa-bar-chart" style="font-size:35px"></li> -->
+			</ul>
+
+		</div>
+	</div>
+		<div class="main">
+			<div class="template">
+				<div class="infobox">
+					<nav class="navigation">
+						<div class="Route">
+							<!-- <h1>Route And Date</h1>
+							<ul id="list"></ul> -->
+							<form class="Pickerform">
+							<label class="fa fa-calendar" style="font-size:24px"><br>RouteAndDate</label>
+							<br><br>
+								<!-- <input></input> -->
+							<select id="list"></select> <!-- select menue -->
+							    <!-- <option id="list"></option> --> 
+							    <br><br>
+
+							<div class="Date">
+								<input id="datepicker" placeholder="DateTime" ></input> <!--Date peicker-->
+							</div>
+							<br>
+								<div class="ViewButton"> <!-- BootStrap button -->
+									<a href="availablebus.html" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-eye-open"></span> View</a>
+								</div>
+							</form>
+
+						</div>
+					</nav>
+
+				</div>
+			</div>
+
+			<div class="Footer">
+				<footer id="CopyRightWarning">
+					<p>Copyright E-Ticketing 2016. All rights reserved.</p>
+				</footer>
+			</div>
+
+		</div>
+		<script type="text/javascript" src="sc/script.js"></script>
+</body>
+</html>

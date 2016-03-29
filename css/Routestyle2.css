@@ -1,0 +1,31 @@
+#list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: inline-block;
+}
+li
+{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a.fa.fa-bus {
+    font-size: 30px;
+    color: white;
+}
+.logoBus {
+    background-color: black;
+    padding: 8px 7px 25px 7px
+}
+.Footer{
+    background-color: #8A8888;
+    font-family: -webkit-pictograph;
+    padding: 2px 0px 2px 0px;
+    margin: 39% 0px 0px 0px;
+    text-align: center;
+}

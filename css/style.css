@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: -webkit-pictograph;
+    margin: initial;
+    font-size: large;
+} 
+#list{
+	display: block;
+    width: 100%;
+    height: 41px;
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 1.428571;
+    color: #797474;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+.main{
+	align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#datepicker{
+	box-sizing: border-box;
+    width: 99%;
+    height: 41px;
+    border-radius: 10px;
+}
+.Route {
+    text-align: center;
+    margin: 3% 3% 3% 3%;
+}
+}
+h3{
+	font-family: -webkit-pictograph;
+    font-size: x-large;
+}
+#optionlist{
+	font-family: -webkit-pictograph;
+    font-size: larger;
+    float: initial;
+    color: whitesmoke;
+}
+
+.Options{
+	background-color: black;
+	color: white;
+	float: none;
+	font-size: large;
+    margin: auto;
+}
+
+ul{
+	width: 100%;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    padding: 0em 5em 2em 0em;
+}
+li{
+	float: right;
+	padding: 0em 0em 0em 3em;
+}
+label {
+    margin: 0 0 15px 0;
+    font-size: 25px;
+}
+.template {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+p{
+    text-align: center;
+    color: white;
+}
+.Footer{
+    background-color: #8A8888;
+    font-family: -webkit-pictograph;
+}
+#CopyRightWarning{
+
+    background-color: darkgray;
+    padding: 24px 0px 6px 0px;
+}
+.ViewButton {
+    color: #161819;
+    width: 50%;
+    padding: 0px 0px 3px 0px;
+    margin: auto
+}
+body{
+    color: #307D48;
+}
+.btn-success{
+    align-items: center;
+}
